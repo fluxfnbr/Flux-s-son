@@ -7,7 +7,7 @@ import { getColor } from '../../config/bot.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
-    .setName("purge")
+    .setName("clear")
     .setDescription("Delete a specific amount of messages")
     .addIntegerOption((option) =>
       option
